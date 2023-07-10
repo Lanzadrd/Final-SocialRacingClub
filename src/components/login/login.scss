@@ -1,0 +1,54 @@
+.login-form {
+  background-color: rgba(79, 78, 78, 0.634);
+  border: 1px solid grey;
+  height: 25rem;
+  width: 20rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title_form {
+    color: white;
+    background-color: none;
+  }
+}
+
+input {
+  background-color: rgb(126, 116, 116);
+  width: 12rem;
+  height: 2rem;
+  border-radius: 1px 1rem 1px 1rem;
+  margin: 1rem;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+input:hover {
+  background-color: darkred;
+  color: white;
+}
+
+input::placeholder {
+  padding-left: 20px;
+  color: white;
+}
+
+.subtitle {
+  color: aliceblue;
+}
+
+a {
+  color: rgba(0, 255, 229, 1) 100%;
+}
+
+.login_button_submit:hover {
+  color: white;
+  border: 2px solid darkred;
+  background-color: rgb(169, 169, 169);
+}
+
+.login_button_submit {
+  margin-top: 1.5rem;
+  border: 2px solid rgb(184, 165, 165);
+}

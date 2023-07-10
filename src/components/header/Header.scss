@@ -1,0 +1,98 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 4rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.image_container {
+  margin: 1rem;
+
+  img {
+    border-radius: 50%;
+    border: 2px solid crimson;
+  }
+}
+
+.title_info {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_name {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user_info {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.user_name {
+  display: flex;
+  margin-bottom: 0.3rem;
+  align-items: center;
+}
+
+ul {
+  height: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logout_button {
+  border: 2px solid red;
+  color: grey;
+  background: rgb(255, 255, 255);
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 0.8rem;
+}
+
+.login_button {
+  border: 2px solid rgb(0, 255, 51);
+  color: grey;
+  background: rgb(255, 255, 255);
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 0.8rem;
+  margin: 0.5rem;
+}
+
+.register_button {
+  border: 2px solid rgb(255, 170, 0);
+  color: grey;
+  background: rgb(255, 255, 255);
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 0.8rem;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(100, 98, 99);
+}

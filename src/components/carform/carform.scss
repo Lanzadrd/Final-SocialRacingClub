@@ -1,0 +1,51 @@
+.garage {
+  font-size: x-large;
+  flex-direction: column;
+  display: flex;
+  min-height: 85vh;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 900;
+}
+
+.home_title {
+  margin-top: 1rem;
+}
+
+.car-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(79, 79, 73);
+  border-radius: 1rem 1rem 1rem 1rem;
+
+  .title_form {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 2rem;
+    color: rgb(240, 233, 233);
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    all: unset;
+    width: 20rem;
+    height: 2rem;
+    margin: 0.5rem;
+  }
+}
+
+.select_fuel {
+  display: flex;
+  flex-direction: row;
+}
+
+.garage_title {
+  margin: 1rem;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
